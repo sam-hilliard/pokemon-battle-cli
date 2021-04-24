@@ -1,10 +1,13 @@
-# Plan for Pokemon Battle CLI!
+# Plan for Pokemon Battle CLI
+
 This is the basic plan for my code and how I plan on organizing classes.
 
 ## Description
+
 The user will run this java application via a terminal of their choice. All information and interaction will be made exclusively through a text-based interface.
 
 ### General Process
+
 1. Run application.
 2. Prompted a title screen. Includes basic information.
 3. Option for an info screen or to jump into game.
@@ -17,11 +20,47 @@ The user will run this java application via a terminal of their choice. All info
 10. Option to start the entire process over again.
 
 ### Special features
+
 - Lottery style item pickup
-    - occurs randomly (maybe every 5 or 6 rounds)
-    - items can include:
-        - berries
-        - potions
-        - revives
-        - pokemon level up (1+, 2+, 5+...)??
-        - add new pokemon to team
+  - occurs randomly (maybe every 5 or 6 rounds)
+  - items can include:
+    - berries
+    - potions
+    - revives
+    - pokemon level up (1+, 2+, 5+...)??
+    - add new pokemon to team
+
+## Structure
+
+Definitions for organization of files and classes.
+
+## Files
+
+- Main.java
+  - all objects created, run, and tested here
+- Game.java
+  - game loop, prompting, and user input accepted
+- Pokemon.java
+  - creates a pokemon based on stats entered by a json file
+- Trainer.java
+  - will be parent class for player and cpu
+- Player.java
+  - class for the user
+- Cpu.java
+  - class for player's opponent
+
+## Classes
+
+### Pokemon
+
+- Instance variables
+  - String name
+  - String([]) type
+  - String[] moves
+  - Map<String, Integer> stats
+    - level, speed, attack, hp, etc...
+- Methods
+  - setters/getters
+  - int attack()
+  - void recieveDamage(int health)
+  - void restoreHP(int health)
