@@ -1,0 +1,18 @@
+{
+    "Name": "Bulbasaur",
+    "Type": [
+        "Grass",
+        "Poison"
+    ],
+    "Weaknesses": [
+        "Fire",
+        "Psychic",
+        "Flying",
+        "Ice"
+    ],
+    "Moveset": [
+        "Tackle",
+        "Vine Whip",
+        "Razor Leaf"
+    ]
+}
