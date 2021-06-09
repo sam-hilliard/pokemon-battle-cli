@@ -1,6 +1,13 @@
 {
-    "Name": "Tackle",
-    "Power": 40,
-    "Accuracy": 100,
-    "Type": "Normal"
+    "moves":[
+            {
+                "name": "Tackle",
+                "category": "physical", 
+                "power": 40,
+                "accuracy": 100,
+                "pp": 35,
+                "cost": 1,
+                "effects": null
+            }
+        ]
 }

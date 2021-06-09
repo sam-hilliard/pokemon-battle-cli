@@ -1,18 +1,34 @@
 {
-    "Name": "Bulbasaur",
-    "Type": [
-        "Grass",
-        "Poison"
+    "gen 1": [
+        {
+            "number": 1,
+            "name": "Bulbasaur",
+            "type" : ["grass", "poison"],
+            "stats": {
+                "hp": 45,
+                "attack": 49,
+                "defense": 49,
+                "sp. atk": 65,
+                "sp. def": 65,
+                "speed": 45
+            },
+            "moves": ["Tackle", "Vine Whip", "Growth", "Poison Powder"]
+        },
+        {
+            "number": 2,
+            "name": "Ivysaur",
+            "type" : ["grass", "poison"],
+            "stats": {
+                "hp": 60,
+                "attack": 62,
+                "defense": 63,
+                "sp. atk": 80,
+                "sp. def": 80,
+                "speed": 60
+            },
+            "moves": ["Take Down", "Razor Leaf", "Seed Bomb", "Sleep Powder"]
+        }
     ],
-    "Weaknesses": [
-        "Fire",
-        "Psychic",
-        "Flying",
-        "Ice"
-    ],
-    "Moveset": [
-        "Tackle",
-        "Vine Whip",
-        "Razor Leaf"
-    ]
+    "gen 2": [],
+    "gen 3": []
 }
